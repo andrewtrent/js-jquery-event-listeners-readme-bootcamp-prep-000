@@ -4,7 +4,7 @@ function getIt(){
 }
 
 function frameIt(){
-  className = '#tasty'
+  className = 'tasty'
 }
 $(document).ready(function(){
 
