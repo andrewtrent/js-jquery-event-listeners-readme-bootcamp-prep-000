@@ -8,6 +8,9 @@ function frameIt(){
     this.className = 'tasty'
   })
 }
+function pressIt(){
+  
+}
 $(document).ready(function(){
 
 $('p').on('click', getIt);
