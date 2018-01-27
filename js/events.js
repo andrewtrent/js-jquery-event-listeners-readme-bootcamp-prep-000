@@ -4,10 +4,10 @@ function getIt(){
 }
 
 function frameIt(){
-  className = 'tasty'
+  $('img').on('load', frameIt)className = 'tasty'
 }
 $(document).ready(function(){
 
 $('p').on('click', getIt)
-$('img').on('load', frameIt)
+
 });
