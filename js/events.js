@@ -11,7 +11,7 @@ function frameIt(){
 
 function pressIt(){
   $('form input').on('keydown', function(e){
-    if(e.which == 70){
+    if(e.which == 71){
       alert('');
     }
   })
