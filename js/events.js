@@ -3,12 +3,12 @@ function getIt(){
   return;
 }
 
-function submitIt(){
+function frameIt(){
   $('img').on('load', function(){
     this.className = 'tasty'
   })
 }
-function pressIt(){
+function submitIt(){
   alert('Your form is going to be submitted now.')
 }
 $(document).ready(function(){
