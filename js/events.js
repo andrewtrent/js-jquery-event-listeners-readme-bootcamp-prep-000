@@ -1,7 +1,13 @@
-//define functions here
+function getIt(){
+  alert('Hey!');
+  return;
+}
 
+function frameIt(){
+  className = '#tasty'
+}
 $(document).ready(function(){
 
-// call functions here
-
+$('p').on('click', getIt)
+$('img').on('load', frameIt)
 });
