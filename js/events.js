@@ -10,7 +10,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('form input')
+  $('form input').on('keydown', )
 }
 
 function submitIt(){
