@@ -10,8 +10,8 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('form input').on('keydown', function(){
-    if(key.which == 70){
+  $('form input').on('keydown', function(e){
+    if(e.which == 70){
       alert('');
     }
   })
